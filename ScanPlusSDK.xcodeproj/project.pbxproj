@@ -120,11 +120,11 @@
 		EBA90C71210287C300BB83E8 /* MGTesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = EBA90C65210287C300BB83E8 /* MGTesseract.mm */; };
 		EBA90C72210287C300BB83E8 /* MGConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA90C66210287C300BB83E8 /* MGConstants.h */; };
 		EBA90C73210287C300BB83E8 /* MGTesseractParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA90C67210287C300BB83E8 /* MGTesseractParameters.m */; };
-		EBA90C7921028A9300BB83E8 /* mglibtesseract.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C7421028A9300BB83E8 /* mglibtesseract.a */; };
-		EBA90C7A21028A9300BB83E8 /* mglibjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C7521028A9300BB83E8 /* mglibjpeg.a */; };
-		EBA90C7B21028A9300BB83E8 /* mglibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C7621028A9300BB83E8 /* mglibpng.a */; };
-		EBA90C7C21028A9300BB83E8 /* mgliblep.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C7721028A9300BB83E8 /* mgliblep.a */; };
-		EBA90C7D21028A9300BB83E8 /* mglibtiff.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C7821028A9300BB83E8 /* mglibtiff.a */; };
+		EBA90C7921028A9300BB83E8 /* libtesseract.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C7421028A9300BB83E8 /* libtesseract.a */; };
+		EBA90C7A21028A9300BB83E8 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C7521028A9300BB83E8 /* libjpeg.a */; };
+		EBA90C7B21028A9300BB83E8 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C7621028A9300BB83E8 /* libpng.a */; };
+		EBA90C7C21028A9300BB83E8 /* liblep.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C7721028A9300BB83E8 /* liblep.a */; };
+		EBA90C7D21028A9300BB83E8 /* libtiff.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C7821028A9300BB83E8 /* libtiff.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -254,11 +254,11 @@
 		EBA90C65210287C300BB83E8 /* MGTesseract.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MGTesseract.mm; path = ../../../../../Core/Files/MGTesseract.mm; sourceTree = "<group>"; };
 		EBA90C66210287C300BB83E8 /* MGConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGConstants.h; path = ../../../../../Core/Files/MGConstants.h; sourceTree = "<group>"; };
 		EBA90C67210287C300BB83E8 /* MGTesseractParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTesseractParameters.m; path = ../../../../../Core/Files/MGTesseractParameters.m; sourceTree = "<group>"; };
-		EBA90C7421028A9300BB83E8 /* mglibtesseract.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = mglibtesseract.a; path = ScanPlusSDK/lib/mglibtesseract.a; sourceTree = SOURCE_ROOT; };
-		EBA90C7521028A9300BB83E8 /* mglibjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = mglibjpeg.a; path = ScanPlusSDK/lib/mglibjpeg.a; sourceTree = SOURCE_ROOT; };
-		EBA90C7621028A9300BB83E8 /* mglibpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = mglibpng.a; path = ScanPlusSDK/lib/mglibpng.a; sourceTree = SOURCE_ROOT; };
-		EBA90C7721028A9300BB83E8 /* mgliblep.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = mgliblep.a; path = ScanPlusSDK/lib/mgliblep.a; sourceTree = SOURCE_ROOT; };
-		EBA90C7821028A9300BB83E8 /* mglibtiff.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = mglibtiff.a; path = ScanPlusSDK/lib/mglibtiff.a; sourceTree = SOURCE_ROOT; };
+		EBA90C7421028A9300BB83E8 /* libtesseract.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract.a; path = ScanPlusSDK/lib/libtesseract.a; sourceTree = SOURCE_ROOT; };
+		EBA90C7521028A9300BB83E8 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = ScanPlusSDK/lib/libjpeg.a; sourceTree = SOURCE_ROOT; };
+		EBA90C7621028A9300BB83E8 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = ScanPlusSDK/lib/libpng.a; sourceTree = SOURCE_ROOT; };
+		EBA90C7721028A9300BB83E8 /* liblep.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblep.a; path = ScanPlusSDK/lib/liblep.a; sourceTree = SOURCE_ROOT; };
+		EBA90C7821028A9300BB83E8 /* libtiff.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtiff.a; path = ScanPlusSDK/lib/libtiff.a; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,11 +266,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBA90C7921028A9300BB83E8 /* mglibtesseract.a in Frameworks */,
-				EBA90C7C21028A9300BB83E8 /* mgliblep.a in Frameworks */,
-				EBA90C7A21028A9300BB83E8 /* mglibjpeg.a in Frameworks */,
-				EBA90C7D21028A9300BB83E8 /* mglibtiff.a in Frameworks */,
-				EBA90C7B21028A9300BB83E8 /* mglibpng.a in Frameworks */,
+				EBA90C7921028A9300BB83E8 /* libtesseract.a in Frameworks */,
+				EBA90C7C21028A9300BB83E8 /* liblep.a in Frameworks */,
+				EBA90C7A21028A9300BB83E8 /* libjpeg.a in Frameworks */,
+				EBA90C7D21028A9300BB83E8 /* libtiff.a in Frameworks */,
+				EBA90C7B21028A9300BB83E8 /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,11 +336,11 @@
 		EBA90B352102834700BB83E8 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				EBA90C7521028A9300BB83E8 /* mglibjpeg.a */,
-				EBA90C7721028A9300BB83E8 /* mgliblep.a */,
-				EBA90C7621028A9300BB83E8 /* mglibpng.a */,
-				EBA90C7421028A9300BB83E8 /* mglibtesseract.a */,
-				EBA90C7821028A9300BB83E8 /* mglibtiff.a */,
+				EBA90C7521028A9300BB83E8 /* libjpeg.a */,
+				EBA90C7721028A9300BB83E8 /* liblep.a */,
+				EBA90C7621028A9300BB83E8 /* libpng.a */,
+				EBA90C7421028A9300BB83E8 /* libtesseract.a */,
+				EBA90C7821028A9300BB83E8 /* libtiff.a */,
 			);
 			path = lib;
 			sourceTree = "<group>";

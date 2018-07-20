@@ -23,11 +23,11 @@ LEPT_INC_DIR  = $(INCLUDE_DIR)
 TESS_INC_DIR  = $(INCLUDE_DIR)
 LIB_FAT_DIR   = $(shell pwd)/lib
 
-libtessfiles = mglibtesseract.a
-libleptfiles = mgliblept.a
-libpngfiles = mglibpng.a
-libjpegfiles = mglibjpeg.a
-libtifffiles = mglibtiff.a
+libtessfiles = libtesseract.a
+libleptfiles = liblept.a
+libpngfiles = libpng.a
+libjpegfiles = libjpeg.a
+libtifffiles = libtiff.a
 
 sdks = $(SDK_IPHONEOS_PATH) $(SDK_IPHONEOS_PATH) $(SDK_IPHONEOS_PATH) $(SDK_IPHONESIMULATOR_PATH) $(SDK_IPHONESIMULATOR_PATH)
 archs_all = armv7 armv7s arm64 i386 x86_64
