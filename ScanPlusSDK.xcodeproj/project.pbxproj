@@ -123,11 +123,6 @@
 		EBA90BF9210283BD00BB83E8 /* jpeglib.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA90BEE210283BC00BB83E8 /* jpeglib.h */; };
 		EBA90BFA210283BD00BB83E8 /* tiffconf.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA90BEF210283BC00BB83E8 /* tiffconf.h */; };
 		EBA90BFB210283BD00BB83E8 /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA90BF0210283BD00BB83E8 /* pngconf.h */; };
-		EBA90C56210286D500BB83E8 /* mglibjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C51210286D500BB83E8 /* mglibjpeg.a */; };
-		EBA90C57210286D500BB83E8 /* mgliblep.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C52210286D500BB83E8 /* mgliblep.a */; };
-		EBA90C58210286D500BB83E8 /* mglibtesseract.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C53210286D500BB83E8 /* mglibtesseract.a */; };
-		EBA90C59210286D500BB83E8 /* mglibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C54210286D500BB83E8 /* mglibpng.a */; };
-		EBA90C5A210286D500BB83E8 /* mglibtiff.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C55210286D500BB83E8 /* mglibtiff.a */; };
 		EBA90C68210287C300BB83E8 /* UIImage+Filters.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA90C5C210287C200BB83E8 /* UIImage+Filters.h */; };
 		EBA90C69210287C300BB83E8 /* MGTesseract.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA90C5D210287C200BB83E8 /* MGTesseract.h */; };
 		EBA90C6A210287C300BB83E8 /* UIImage+Filters.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA90C5E210287C200BB83E8 /* UIImage+Filters.m */; };
@@ -140,6 +135,11 @@
 		EBA90C71210287C300BB83E8 /* MGTesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = EBA90C65210287C300BB83E8 /* MGTesseract.mm */; };
 		EBA90C72210287C300BB83E8 /* MGConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA90C66210287C300BB83E8 /* MGConstants.h */; };
 		EBA90C73210287C300BB83E8 /* MGTesseractParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA90C67210287C300BB83E8 /* MGTesseractParameters.m */; };
+		EBA90C7921028A9300BB83E8 /* mglibtesseract.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C7421028A9300BB83E8 /* mglibtesseract.a */; };
+		EBA90C7A21028A9300BB83E8 /* mglibjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C7521028A9300BB83E8 /* mglibjpeg.a */; };
+		EBA90C7B21028A9300BB83E8 /* mglibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C7621028A9300BB83E8 /* mglibpng.a */; };
+		EBA90C7C21028A9300BB83E8 /* mgliblep.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C7721028A9300BB83E8 /* mgliblep.a */; };
+		EBA90C7D21028A9300BB83E8 /* mglibtiff.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90C7821028A9300BB83E8 /* mglibtiff.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -264,23 +264,23 @@
 		EBA90BEE210283BC00BB83E8 /* jpeglib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeglib.h; sourceTree = "<group>"; };
 		EBA90BEF210283BC00BB83E8 /* tiffconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiffconf.h; sourceTree = "<group>"; };
 		EBA90BF0210283BD00BB83E8 /* pngconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngconf.h; sourceTree = "<group>"; };
-		EBA90C51210286D500BB83E8 /* mglibjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = mglibjpeg.a; sourceTree = "<group>"; };
-		EBA90C52210286D500BB83E8 /* mgliblep.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = mgliblep.a; sourceTree = "<group>"; };
-		EBA90C53210286D500BB83E8 /* mglibtesseract.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = mglibtesseract.a; sourceTree = "<group>"; };
-		EBA90C54210286D500BB83E8 /* mglibpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = mglibpng.a; sourceTree = "<group>"; };
-		EBA90C55210286D500BB83E8 /* mglibtiff.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = mglibtiff.a; sourceTree = "<group>"; };
-		EBA90C5C210287C200BB83E8 /* UIImage+Filters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Filters.h"; sourceTree = "<group>"; };
-		EBA90C5D210287C200BB83E8 /* MGTesseract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTesseract.h; sourceTree = "<group>"; };
-		EBA90C5E210287C200BB83E8 /* UIImage+Filters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Filters.m"; sourceTree = "<group>"; };
-		EBA90C5F210287C300BB83E8 /* MGRecognizedBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGRecognizedBlock.m; sourceTree = "<group>"; };
-		EBA90C60210287C300BB83E8 /* MGRecognitionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGRecognitionOperation.m; sourceTree = "<group>"; };
-		EBA90C61210287C300BB83E8 /* MGRecognitionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRecognitionOperation.h; sourceTree = "<group>"; };
-		EBA90C62210287C300BB83E8 /* MGRecognizedBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRecognizedBlock.h; sourceTree = "<group>"; };
-		EBA90C63210287C300BB83E8 /* MGTesseractDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTesseractDelegate.h; sourceTree = "<group>"; };
-		EBA90C64210287C300BB83E8 /* MGTesseractParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTesseractParameters.h; sourceTree = "<group>"; };
-		EBA90C65210287C300BB83E8 /* MGTesseract.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MGTesseract.mm; sourceTree = "<group>"; };
-		EBA90C66210287C300BB83E8 /* MGConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGConstants.h; sourceTree = "<group>"; };
-		EBA90C67210287C300BB83E8 /* MGTesseractParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTesseractParameters.m; sourceTree = "<group>"; };
+		EBA90C5C210287C200BB83E8 /* UIImage+Filters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Filters.h"; path = "../../../../../Core/Files/UIImage+Filters.h"; sourceTree = "<group>"; };
+		EBA90C5D210287C200BB83E8 /* MGTesseract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTesseract.h; path = ../../../../../Core/Files/MGTesseract.h; sourceTree = "<group>"; };
+		EBA90C5E210287C200BB83E8 /* UIImage+Filters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Filters.m"; path = "../../../../../Core/Files/UIImage+Filters.m"; sourceTree = "<group>"; };
+		EBA90C5F210287C300BB83E8 /* MGRecognizedBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGRecognizedBlock.m; path = ../../../../../Core/Files/MGRecognizedBlock.m; sourceTree = "<group>"; };
+		EBA90C60210287C300BB83E8 /* MGRecognitionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGRecognitionOperation.m; path = ../../../../../Core/Files/MGRecognitionOperation.m; sourceTree = "<group>"; };
+		EBA90C61210287C300BB83E8 /* MGRecognitionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGRecognitionOperation.h; path = ../../../../../Core/Files/MGRecognitionOperation.h; sourceTree = "<group>"; };
+		EBA90C62210287C300BB83E8 /* MGRecognizedBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGRecognizedBlock.h; path = ../../../../../Core/Files/MGRecognizedBlock.h; sourceTree = "<group>"; };
+		EBA90C63210287C300BB83E8 /* MGTesseractDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTesseractDelegate.h; path = ../../../../../Core/Files/MGTesseractDelegate.h; sourceTree = "<group>"; };
+		EBA90C64210287C300BB83E8 /* MGTesseractParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTesseractParameters.h; path = ../../../../../Core/Files/MGTesseractParameters.h; sourceTree = "<group>"; };
+		EBA90C65210287C300BB83E8 /* MGTesseract.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MGTesseract.mm; path = ../../../../../Core/Files/MGTesseract.mm; sourceTree = "<group>"; };
+		EBA90C66210287C300BB83E8 /* MGConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGConstants.h; path = ../../../../../Core/Files/MGConstants.h; sourceTree = "<group>"; };
+		EBA90C67210287C300BB83E8 /* MGTesseractParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTesseractParameters.m; path = ../../../../../Core/Files/MGTesseractParameters.m; sourceTree = "<group>"; };
+		EBA90C7421028A9300BB83E8 /* mglibtesseract.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = mglibtesseract.a; path = ScanPlusSDK/lib/mglibtesseract.a; sourceTree = SOURCE_ROOT; };
+		EBA90C7521028A9300BB83E8 /* mglibjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = mglibjpeg.a; path = ScanPlusSDK/lib/mglibjpeg.a; sourceTree = SOURCE_ROOT; };
+		EBA90C7621028A9300BB83E8 /* mglibpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = mglibpng.a; path = ScanPlusSDK/lib/mglibpng.a; sourceTree = SOURCE_ROOT; };
+		EBA90C7721028A9300BB83E8 /* mgliblep.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = mgliblep.a; path = ScanPlusSDK/lib/mgliblep.a; sourceTree = SOURCE_ROOT; };
+		EBA90C7821028A9300BB83E8 /* mglibtiff.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = mglibtiff.a; path = ScanPlusSDK/lib/mglibtiff.a; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,11 +288,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBA90C56210286D500BB83E8 /* mglibjpeg.a in Frameworks */,
-				EBA90C59210286D500BB83E8 /* mglibpng.a in Frameworks */,
-				EBA90C57210286D500BB83E8 /* mgliblep.a in Frameworks */,
-				EBA90C5A210286D500BB83E8 /* mglibtiff.a in Frameworks */,
-				EBA90C58210286D500BB83E8 /* mglibtesseract.a in Frameworks */,
+				EBA90C7921028A9300BB83E8 /* mglibtesseract.a in Frameworks */,
+				EBA90C7C21028A9300BB83E8 /* mgliblep.a in Frameworks */,
+				EBA90C7A21028A9300BB83E8 /* mglibjpeg.a in Frameworks */,
+				EBA90C7D21028A9300BB83E8 /* mglibtiff.a in Frameworks */,
+				EBA90C7B21028A9300BB83E8 /* mglibpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,11 +358,11 @@
 		EBA90B352102834700BB83E8 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				EBA90C51210286D500BB83E8 /* mglibjpeg.a */,
-				EBA90C52210286D500BB83E8 /* mgliblep.a */,
-				EBA90C54210286D500BB83E8 /* mglibpng.a */,
-				EBA90C53210286D500BB83E8 /* mglibtesseract.a */,
-				EBA90C55210286D500BB83E8 /* mglibtiff.a */,
+				EBA90C7521028A9300BB83E8 /* mglibjpeg.a */,
+				EBA90C7721028A9300BB83E8 /* mgliblep.a */,
+				EBA90C7621028A9300BB83E8 /* mglibpng.a */,
+				EBA90C7421028A9300BB83E8 /* mglibtesseract.a */,
+				EBA90C7821028A9300BB83E8 /* mglibtiff.a */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -392,7 +392,8 @@
 				EBA90BE8210283BC00BB83E8 /* tiffio.h */,
 				EBA90BE9210283BC00BB83E8 /* tiffvers.h */,
 			);
-			path = images;
+			name = images;
+			path = ../../include/images;
 			sourceTree = "<group>";
 		};
 		EBA90B382102838200BB83E8 /* leptonica */ = {
@@ -430,7 +431,8 @@
 				EBA90BBB210283AD00BB83E8 /* sudoku.h */,
 				EBA90BC1210283AD00BB83E8 /* watershed.h */,
 			);
-			path = leptonica;
+			name = leptonica;
+			path = ../../include/leptonica;
 			sourceTree = "<group>";
 		};
 		EBA90B392102838C00BB83E8 /* tesseract */ = {
@@ -492,7 +494,8 @@
 				EBA90B552102839C00BB83E8 /* version.h */,
 				EBA90B462102839B00BB83E8 /* weightmatrix.h */,
 			);
-			path = tesseract;
+			name = tesseract;
+			path = ../../include/tesseract;
 			sourceTree = "<group>";
 		};
 		EBA90C5B210287A400BB83E8 /* Files */ = {
@@ -927,6 +930,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ScanPlusSDK/Core/lib",
+					"$(PROJECT_DIR)/ScanPlusSDK/lib",
 				);
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.endava.ScanPlusSDK;
@@ -952,6 +956,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ScanPlusSDK/Core/lib",
+					"$(PROJECT_DIR)/ScanPlusSDK/lib",
 				);
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.endava.ScanPlusSDK;
