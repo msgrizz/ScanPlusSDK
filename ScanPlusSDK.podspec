@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.source                  = { :git => 'https://github.com/msgrizz/ScanPlusSDK.git', :tag => s.version.to_s }
 
-  s.platform                = :ios, "8.0"
+  s.platform                = :ios, "8.1"
   s.source_files            = 'ScanPlusSDK/*.{h,m,mm}', 'ScanPlusSDK/include/**/*.h'
   s.private_header_files    = 'ScanPlusSDK/include/**/*.h'
   s.requires_arc            = true

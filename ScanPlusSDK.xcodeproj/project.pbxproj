@@ -6,21 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		EBA90B2C2102822900BB83E8 /* Framework */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = EBA90B2D2102822900BB83E8 /* Build configuration list for PBXAggregateTarget "Framework" */;
-			buildPhases = (
-				EBA90C072102848400BB83E8 /* ShellScript */,
-			);
-			dependencies = (
-				EBA90B312102823900BB83E8 /* PBXTargetDependency */,
-			);
-			name = Framework;
-			productName = Framework;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		EBA90B1821027F8800BB83E8 /* ScanPlusSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA90B0E21027F8800BB83E8 /* ScanPlusSDK.framework */; };
 		EBA90B1D21027F8800BB83E8 /* ScanPlusSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA90B1C21027F8800BB83E8 /* ScanPlusSDKTests.m */; };
@@ -144,13 +129,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		EBA90B1921027F8800BB83E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EBA90B0521027F8800BB83E8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EBA90B0D21027F8800BB83E8;
-			remoteInfo = ScanPlusSDK;
-		};
-		EBA90B302102823900BB83E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EBA90B0521027F8800BB83E8 /* Project object */;
 			proxyType = 1;
@@ -689,11 +667,6 @@
 						CreatedOnToolsVersion = 9.4.1;
 						ProvisioningStyle = Automatic;
 					};
-					EBA90B2C2102822900BB83E8 = {
-						CreatedOnToolsVersion = 9.4.1;
-						DevelopmentTeam = PQVP6Z8X66;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = EBA90B0821027F8800BB83E8 /* Build configuration list for PBXProject "ScanPlusSDK" */;
@@ -710,7 +683,6 @@
 			targets = (
 				EBA90B0D21027F8800BB83E8 /* ScanPlusSDK */,
 				EBA90B1621027F8800BB83E8 /* ScanPlusSDKTests */,
-				EBA90B2C2102822900BB83E8 /* Framework */,
 			);
 		};
 /* End PBXProject section */
@@ -746,19 +718,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"$PATH:/usr/local/bin\" # That's the path where the aclocal is installed\n# just uncomment the following line if you wish to make dependent libraries from xcode\n#export BUILD_DEPENDENT_LIBRARIES=\"true\"\nif [ $BUILD_DEPENDENT_LIBRARIES = \"true\" ]\nthen\ncd ScanPlusSDK\nmake\nfi";
 		};
-		EBA90C072102848400BB83E8 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = ScanPlusSDK;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -790,11 +749,6 @@
 			isa = PBXTargetDependency;
 			target = EBA90B0D21027F8800BB83E8 /* ScanPlusSDK */;
 			targetProxy = EBA90B1921027F8800BB83E8 /* PBXContainerItemProxy */;
-		};
-		EBA90B312102823900BB83E8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EBA90B0D21027F8800BB83E8 /* ScanPlusSDK */;
-			targetProxy = EBA90B302102823900BB83E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -933,6 +887,10 @@
 					"$(PROJECT_DIR)/ScanPlusSDK/lib",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.endava.ScanPlusSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -959,6 +917,10 @@
 					"$(PROJECT_DIR)/ScanPlusSDK/lib",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.endava.ScanPlusSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -991,24 +953,6 @@
 			};
 			name = Release;
 		};
-		EBA90B2E2102822900BB83E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PQVP6Z8X66;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		EBA90B2F2102822900BB83E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PQVP6Z8X66;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1035,15 +979,6 @@
 			buildConfigurations = (
 				EBA90B2621027F8800BB83E8 /* Debug */,
 				EBA90B2721027F8800BB83E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EBA90B2D2102822900BB83E8 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EBA90B2E2102822900BB83E8 /* Debug */,
-				EBA90B2F2102822900BB83E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
